@@ -1,0 +1,1 @@
+2.4. Page Object's:  [![Build status](https://ci.appveyor.com/api/projects/status/2sqdrq02rcb4kqwe?svg=true)](https://ci.appveyor.com/project/OlesyaSergeevnaPopova/pageobject)
