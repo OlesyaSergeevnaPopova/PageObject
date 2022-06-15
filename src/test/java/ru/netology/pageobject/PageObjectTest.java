@@ -61,12 +61,12 @@ public class PageObjectTest {
         assertEquals(secondCardBalanceResult, personalAccount.getSecondCardBalance());
     }
 
-//    @Test
-//    void shouldBeErrorWhenTransferMoneyMoreThanBalance() {
-//        int amount = 15300;
-//        val moneyTransfer = clickSecondCardButton();
-//        moneyTransfer.moneyTransfer(amount, getFirstCardNumber());
-//        moneyTransfer.getErrorLimit();
-//
-//    }
+    @Test
+    void shouldBeErrorWhenTransferMoneyMoreThanBalance() {
+        int amount = 12000;
+        val moneyTransfer = clickSecondCardButton();
+        moneyTransfer.moneyTransfer(amount, getFirstCardNumber());
+        moneyTransfer.getErrorLimit();
+
+    }
 }
